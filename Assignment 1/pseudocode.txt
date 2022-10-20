@@ -1,0 +1,11 @@
+PSEUDOCODE TO CONVERT ALL STRINGS TO CAPITAL LETTER
+Step 1: Start
+Step 2: Declare str and newStr,
+Step 3: Input the word in "str"
+Step 4: Loop through all the character of the word/string,
+Step 5:Check if the character is a lowercase
+    - Substract 32 from the character
+    - Convert to UPPERCASE
+Step 6: push to newStr 
+Step 7: Print,
+Step 8: Stop.

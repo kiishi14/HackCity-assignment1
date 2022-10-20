@@ -1,0 +1,12 @@
+PSEUDOCODE TO REVERSE THE ORDER OF CHARACTER IN A GIVEN STRINGS
+Step 1:Start,
+Step 2: Declare str and revStr,
+Step 3: Let str = input, revStr = "",
+Step 4: Read the input,
+Step 5: Calculate the length of the string,
+Step 6: initialize i = length-1
+Step 7: Repeat until i>=0,
+    - revStr += character at position "i" of the string
+    - i -= 1
+Step 8: Print revStr
+step 9: Stop

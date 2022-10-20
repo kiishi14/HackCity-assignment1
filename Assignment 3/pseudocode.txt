@@ -1,0 +1,12 @@
+PSEUDOCODE TO SEND NOTFICATION TO A PERSON EVRY ONE HOUR, REMINDING HIM/HER TO CLOCK IN
+Step 1: Start,
+Step 2: Get the real time and declare it as realTime,
+Step 3: Get the present time and declare it as preTime,
+Step 4: If preTime >= 9:00, go to step 5b
+Step 5: Check if preTime - realTime < 60mins,
+    a) if yes, go back to step 3
+    b) if no:
+    - realTime = preTime
+    - go back to step 3
+
+step 6 : Stop
